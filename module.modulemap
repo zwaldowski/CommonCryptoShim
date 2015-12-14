@@ -1,0 +1,14 @@
+module CommonCrypto {
+    header "CommonCryptoDefines.h"
+    header "CommonCryptoError.h"
+    header "CommonCryptor.h"
+    header "CommonDigest.h"
+    header "CommonHMAC.h"
+    header "CommonKeyDerivation.h"
+    header "CommonRandom.h"
+    header "CommonSymmetricKeywrap.h"
+    
+    export *
+    
+    link "system"
+}
